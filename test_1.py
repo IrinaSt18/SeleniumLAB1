@@ -43,7 +43,7 @@ with open("testdata.yaml") as f:
         input2.send_keys(testdata["password"])
         btn = site.find_element("xpath", btn_xpath)
         btn.click()
-
+# +GIT
         time.sleep(2)
         # wait = WebDriverWait(site.driver, 10)
         # wait.until(EC.element_to_be_clickable((By.XPATH, new_post_xpath)))
